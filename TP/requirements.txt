@@ -1,0 +1,19 @@
+# Dependances des TP pour une installation classique (pip + venv),
+# utile si vous n'avez pas uv ou une stack plus ancienne (Python 3.9+).
+#
+# Installation :
+#   python3 -m venv .tp_ml_2esgi
+#   source .tp_ml_2esgi/bin/activate      (Windows : .tp_ml_2esgi\Scripts\activate)
+#   pip install -r requirements.txt
+#
+# Bornes basses volontairement larges pour rester compatibles avec des
+# environnements anterieurs ; tout fonctionne aussi avec des versions plus recentes.
+
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.2
+matplotlib>=3.6
+
+# Pour executer les notebooks
+jupyterlab>=3.5
+ipykernel>=6.20
